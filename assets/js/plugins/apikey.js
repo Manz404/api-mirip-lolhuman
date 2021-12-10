@@ -12,7 +12,7 @@
 
     function sendata() {
       if (apikey.value == '') {
-        alert("Masukkan apikeymu!", "", "error");
+        alert("ManzRestApi", "", "error");
       } else {
         var xhr = new XMLHttpRequest();
         var url = `http://localhost:8080/docs/cekapikey?apikey=${apikey.value}`;
